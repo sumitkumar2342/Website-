@@ -3,105 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IGNOU Results - Student Services</title>
+  <title>CBSE Exam Results</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    .header {
-      background-color: #004c8b;
-      color: white;
-      padding: 15px;
-    }
-    .header img {
-      height: 50px;
-      vertical-align: middle;
-    }
-    .header-title {
-      display: inline-block;
-      margin-left: 20px;
-      vertical-align: middle;
-    }
-    .nrf-logo {
-      float: right;
-      height: 50px;
-    }
-    .hero {
-      background: linear-gradient(90deg, #004c8b 50%, #0c2d48 50%);
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    .hero h2 {
-      margin: 0;
-      font-size: 28px;
-    }
-    .breadcrumb {
-      background-color: #f5f5f5;
-      padding: 10px 20px;
-      font-size: 14px;
-    }
-    .results-box {
-      background-color: white;
-      padding: 20px;
-      margin: 20px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-    .results-box h3 {
-      margin-top: 0;
-    }
-    .results-box ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    .results-box a {
-      color: #004c8b;
-      text-decoration: none;
-    }
-    .results-box a:hover {
-      text-decoration: underline;
-    }
-    .new-badge {
-      background: red;
-      color: white;
-      font-size: 10px;
-      padding: 2px 4px;
-      border-radius: 4px;
-      margin-left: 5px;
-      vertical-align: middle;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer, nav, section { padding: 15px; }
+    header { background-color: #f1f1f1; text-align: center; }
+    nav { background-color: #004080; color: white; display: flex; justify-content: space-around; }
+    nav a { color: white; text-decoration: none; padding: 10px; }
+    section { background: #fff; padding: 20px; }
+    h2 { color: #333; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 10px; }
+    footer { background-color: #222; color: white; text-align: center; font-size: 0.9em; }
   </style>
 </head>
 <body>
-  <div class="header">
-    <img src="https://ignou.ac.in/images/logo.png" alt="IGNOU Logo">
-    <span class="header-title">
-      <strong>Indira Gandhi National Open University (IGNOU)</strong><br>
-      इंदिरा गांधी राष्ट्रीय मुक्त विश्वविद्यालय (इंदु)
-    </span>
-    <img class="nrf-logo" src="https://www.nirfindia.org/Content/Images/NIRF%20Logo.png" alt="NIRF Logo">
-  </div>
 
-  <div class="hero">
-    <h2>Student Services <br> (Results)</h2>
-  </div>
+<header>
+  <img src="https://www.cbse.gov.in/images/logo.png" alt="CBSE Logo" height="80">
+  <h1>Central Board of Secondary Education</h1>
+  <p>CBSE Exam Results</p>
+</header>
 
-  <div class="breadcrumb">
-    Home / Student Services / Results
-  </div>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Contact Us</a>
+  <a href="#">Previous Year Results</a>
+</nav>
 
-  <div class="results-box">
-    <h3>Results</h3>
-    <ul>
-      <li><a href="#">PhD admission Results (July 2024 session)</a> <span class="new-badge">New</span></li>
-      <li><a href="#">Term End Exam Results</a></li>
-      <li><a href="#">Grade Card</a></li>
-      <li><a href="#">Reevaluation Result for TEE June 2024</a></li>
-      <li><a href="#">Reevaluation Result for TEE Dec 2023</a></li>
-      <li><a href="#">Reevaluation & Copy of Answerscript for TEE Dec 2023 & Jun 2024</a></li>
-    </ul>
-  </div>
+<section>
+  <h2>2024 Results</h2>
+  <ul>
+    <li>CENTRAL TEACHER ELIGIBILITY TEST (CTET) JULY 2024 – Published on 31st July 2024</li>
+    <li>Class X Supplementary Results – Published on 5th August 2024</li>
+    <li>Class XII Supplementary Results – Announced on 2nd August 2024</li>
+    <li>Class X Re-evaluation Lot 2 – Announced on 30th July 2024</li>
+    <li>Class XII Re-evaluation Lot 2 – Announced on 30th July 2024</li>
+    <li>Class X Re-evaluation Lot 1 – Announced on 26th June 2024</li>
+    <li>Class XII Re-evaluation Lot 1 – Announced on 26th June 2024</li>
+    <li>Class X Results – Announced on 13th May 2024</li>
+    <li>Class XII Results – Announced on 13th May 2024</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Central Board of Secondary Education. All rights reserved.</p>
+  <p>Last Updated: April 11, 2025</p>
+</footer>
+
 </body>
 </html>
